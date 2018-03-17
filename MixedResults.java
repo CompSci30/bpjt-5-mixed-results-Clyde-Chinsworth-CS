@@ -11,9 +11,9 @@ public class MixedResults
 		
 		double p1 =  57.2 * (i1 / i2) +1; //1.0
 		double p2 =  57.2 * ( (double)i1 / i2 ) + 1; //39.133333333333
-		double p3 =  15 – i1 * ( d1 * 3) + 4; //-1345.399999999999
-		int p4 =  15 – i1 * (int)( d1 * 3) + 4; //-1337
-		int p5 = 15 – i1 * ( (int)d1 * 3) + 4; //-1313
+		double p3 =  15 - i1 * ( d1 * 3) + 4; //-1345.399999999999
+		int p4 =  15 - i1 * (int)( d1 * 3) + 4; //-1337
+		int p5 = 15 - i1 * ( (int)d1 * 3) + 4; //-1313
 		
 		System.out.println("Problem 1: " + p1);
 		System.out.println("Problem 2: " + p2);
